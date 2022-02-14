@@ -30,11 +30,11 @@ def main(yolo):
     nms_max_overlap = 1.0
     frame_count = 0
     # Definition of the camera
-    path_camera_11 = 'rtsp://admin:admin123@10.10.105.11:554/cam/realmonitor?channel=1&subtype=0'
-    path_camera_12 = 'rtsp://admin:admin123@10.10.105.12:554/cam/realmonitor?channel=1&subtype=0'
-    path_camera_13 = 'rtsp://admin:admin123@10.10.105.13:554/cam/realmonitor?channel=1&subtype=0'
-    path_camera_14 = 'rtsp://admin:admin123@10.10.105.14:554/cam/realmonitor?channel=1&subtype=0'
-    path_camera_15 = 'rtsp://admin:admin123@10.10.105.15:554/cam/realmonitor?channel=1&subtype=0'
+    path_camera_11 = 0
+    path_camera_12 = 1
+    path_camera_13 = 2
+    path_camera_14 = 3
+    path_camera_15 = 4
     # load video
     cap_11 = cv2.VideoCapture(path_camera_11)
     cap_12 = cv2.VideoCapture(path_camera_12)
